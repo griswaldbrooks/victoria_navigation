@@ -3,7 +3,7 @@
   
 <node name="depthimage_to_laserscan" pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" > 
     <param name="scan_height" value="300"/>
-    <param name="output_frame_id" value="camera_depth_frame2"/>
+    <param name="output_frame_id" value="camera_depth_frame"/>
     <remap from="image" to="/camera/depth/image_raw"/>
     <remap from="scan" to="/scan_depth"/>
 </node>
